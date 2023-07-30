@@ -1,0 +1,311 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar -->
+      <div class="nav">
+        <nav>
+          <div id="nav-container">
+            <h2 id="nav-container-h2">
+              Furniture <span style="color: 6195ff">Store</span>
+            </h2>
+            <div id="nav-left">
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Register.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div id="nav-right">
+              <a href="#"
+                ><i class="fa fa-shopping-cart"></i> Cart
+                <span id="cart-count">0</span></a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- slider -->
+
+      <div class="slider pd-y">
+        <div class="slider-item">
+          <img src="imgs/img1.jpg" alt="Photo 1" />
+          <div class="caption">
+            "Transform your living room into a cozy haven with our plush sofas -
+            perfect for lazy afternoons and movie nights!"
+          </div>
+        </div>
+        <div class="slider-item">
+          <img src="imgs/img2.jpg" alt="Photo 2" />
+          <div class="caption">
+            "Make a statement with our elegant dining table set - designed to
+            bring a touch of sophistication to your home".
+          </div>
+        </div>
+        <div class="slider-item">
+          <img src="imgs/img3.jpg" alt="Photo 3" />
+          <div class="caption">
+            "Get creative with our versatile bookshelves - perfect for
+            showcasing your favorite reads and decorative items."
+          </div>
+        </div>
+        <div class="slider-item">
+          <img src="imgs/img4.jpg" alt="Photo 3" />
+          <div class="caption">
+            "Upgrade your bedroom with our stylish bed frames - designed for
+            comfort and durability, ensuring a good night's sleep."
+          </div>
+        </div>
+      </div>
+      <!--Section header -->
+
+      <div class="section-header pd-y">
+        <h2 class="section-title">Best Discounts</h2>
+        <span class="line"></span>
+      </div>
+
+      <!-- Filter  -->
+      <div class="filter">
+        <div class="filter-btns">
+          <button type="button" class="filter-btn" id="all">All Goods</button>
+          <button type="button" class="filter-btn" id="new">Chair</button>
+          <button type="button" class="filter-btn" id="best-sellers">
+            Table
+          </button>
+          <button type="button" class="filter-btn" id="specials">Sofa</button>
+        </div>
+
+        <div class="filter-items">
+          <div class="filter-item all new" id="1">
+            <div class="item-img">
+              <img src="imgs/imgs7.jpg" alt="Item image" />
+              <span class="discount">20%</span>
+            </div>
+            <div class="item-info">
+              <p>SOFA CHAIR</p>
+              <div>
+                <span class="old-price">$20.50</span>
+                <span class="new-price">$16.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="filter-item all best-sellers" id="2">
+            <div class="item-img">
+              <img src="imgs/table3.jpg" alt="Item image" />
+              <span class="discount">40%</span>
+            </div>
+            <div class="item-info">
+              <p>Cool Item Name</p>
+              <div>
+                <span class="old-price">$30.50</span>
+                <span class="new-price">$10.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="filter-item all specials" id="3">
+            <div class="item-img">
+              <img src="imgs/can3.jpg" alt="Item image" />
+              <span class="discount">50%</span>
+            </div>
+            <div class="item-info">
+              <p>Rathal Sofa</p>
+              <div>
+                <span class="old-price">$40.50</span>
+                <span class="new-price">$20.50</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="filter-item all new" id="4">
+            <div class="item-img">
+              <img src="imgs/imgs6.jpg" alt="Item image" />
+              <span class="discount">20%</span>
+            </div>
+            <div class="item-info">
+              <p>CATHEDRA CHAIR</p>
+              <div>
+                <span class="old-price">$40.50</span>
+                <span class="new-price">$30.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="filter-item all new">
+            <div class="item-img">
+              <img src="imgs/imgs5.jpg" alt="Item image" />
+              <span class="discount">20%</span>
+            </div>
+            <div class="item-info">
+              <p>Dino Dining Table</p>
+              <div>
+                <span class="old-price">$25.50</span>
+                <span class="new-price">$15.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="filter-item all specials">
+            <div class="item-img">
+              <img src="imgs/can1.jpg" alt="Item image" />
+              <span class="discount">50%</span>
+            </div>
+            <div class="item-info">
+              <p>Rathal Sofa</p>
+              <div>
+                <span class="old-price">$35.50</span>
+                <span class="new-price">$20.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="filter-item all new">
+            <div class="item-img">
+              <img src="imgs/imgs2.jpg" alt="Item image" />
+              <span class="discount">20%</span>
+            </div>
+            <div class="item-info">
+              <p>SOFA CHAIR</p>
+              <div>
+                <span class="old-price">$20.50</span>
+                <span class="new-price">$10.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="filter-item all specials">
+            <div class="item-img">
+              <img src="imgs/can4.jpg" alt="Item image" />
+              <span class="discount">40%</span>
+            </div>
+            <div class="item-info">
+              <p>OFFICE TABLE</p>
+              <div>
+                <span class="old-price">$30.50</span>
+                <span class="new-price">$15.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+          <div class="filter-item all specials">
+            <div class="item-img">
+              <img src="imgs/can2.jpg" alt="Item image" />
+              <span class="discount">40%</span>
+            </div>
+            <div class="item-info">
+              <p>ELENORA DINING SET</p>
+              <div>
+                <span class="old-price">$30.50</span>
+                <span class="new-price">$10.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+          <div class="filter-item all best-sellers">
+            <div class="item-img">
+              <img src="imgs/table5.jpg" alt="Item image" />
+              <span class="discount">40%</span>
+            </div>
+            <div class="item-info">
+              <p>Dino Dining Table</p>
+              <div>
+                <span class="old-price">$35.50</span>
+                <span class="new-price">$20.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+          <div class="filter-item all best-sellers">
+            <div class="item-img">
+              <img src="imgs/table7.jpg" alt="Item image" />
+              <span class="discount">40%</span>
+            </div>
+            <div class="item-info">
+              <p>ELENORA DINING SET</p>
+              <div>
+                <span class="old-price">$50.50</span>
+                <span class="new-price">$20.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+          <div class="filter-item all best-sellers">
+            <div class="item-img">
+              <img src="imgs/table6.jpg" alt="Item image" />
+              <span class="discount">40%</span>
+            </div>
+            <div class="item-info">
+              <p>Dino Dining Table</p>
+              <div>
+                <span class="old-price">$40.50</span>
+                <span class="new-price">$16.70</span>
+              </div>
+              <a href="#" class="add-btn" onclick="Add()">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header pd-y">
+        <h2 class="section-title">Our Brands Partners</h2>
+        <span class="line"></span>
+      </div>
+      <div class="brands">
+        <img src="imgs/goo.jpg" alt="" />
+        <img src="imgs/netf.jpg" alt="" />
+        <img src="imgs/star.jpg" alt="" />
+        <img src="imgs/tes.jpg" alt="" />
+        <img src="imgs/zoo.jpg" alt="" />
+        <img src="imgs/amazo.jpg" alt="" />
+      </div>
+    </div>
+
+    <section class="newsletter" id="contact">
+      <h2>Subscribe To Newsletter</h2>
+      <div class="news-box">
+        <input type="text" placeholder="Enter Your Email.." />
+        <a href="#" class="btn">Subscribe</a>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <h3>Furniture Store</h3>
+        <p>Contact us: 123 Quwesina St, Elgesh EGY</p>
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    </footer>
+    <script src="js/home.js"></script>
+  </body>
+</html>
